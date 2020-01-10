@@ -6,7 +6,7 @@ More and more video game platforms are setting a principle of physical demateria
 
 This project is organised in 5 different jupyter files and 3 folders:
 
-*Folders*
+## Folders
 
 - images : picture of the graphs that we are using during our study.
 
@@ -19,7 +19,7 @@ This project is organised in 5 different jupyter files and 3 folders:
 - images : images used in the jupyter notebook.
 
 
-*Jupyter notebooks*
+## Jupyter notebooks
 
 1 - Data-Collection: Parser that is parsing the Steam and Steamspy website via dedicated API (If you do not want to parse the data do not use it [it takes ~14h] ). 
 
@@ -32,10 +32,10 @@ This project is organised in 5 different jupyter files and 3 folders:
 5 - Exploitation : Graph study of the cleaned data via [Gephi](https://gephi.org/) and clustering of the values (Data available).
 
 
-*Disclaimer :*
+## Disclaimer
 
  The data parsing and processing part was greatly inspired by the work of [Nik Davis](https://nik-davis.github.io/posts/2019/steam-data-collection/), original creator of the Steam dataset on [Kaggle](https://www.kaggle.com/nikdavis/steam-store-games). We decided to parse the data by ourself to have recent data and also to be able to fetch some information not available in the dataset due to the cleaning step.
 
-*Important if you want to study the steam dataset in your country*
+## Important if you want to study the steam dataset in your country:
 
 The Steam API gives us data about the games that are actually available from the country where you are parsing the data. Hence, parsing from a different country means that the currency, actual number of game available, etc... can be variable. 
