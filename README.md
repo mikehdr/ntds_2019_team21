@@ -36,6 +36,6 @@ This project is organised in 5 different jupyter files and 3 folders:
 
  The data parsing and processing part was greatly inspired by the work of [Nik Davis](https://nik-davis.github.io/posts/2019/steam-data-collection/), original creator of the Steam dataset on [Kaggle](https://www.kaggle.com/nikdavis/steam-store-games). We decided to parse the data by ourself to have recent data and also to be able to fetch some information not available in the dataset due to the cleaning step.
 
-## Important if you want to study the steam dataset in your country:
+## Important if you want to study the steam dataset in your country:
 
 The Steam API gives us data about the games that are actually available from the country where you are parsing the data. Hence, parsing from a different country means that the currency, actual number of game available, etc... can be variable. 
