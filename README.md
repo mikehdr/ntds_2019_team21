@@ -38,4 +38,4 @@ This project is organised in 5 different jupyter files and 3 folders:
 
 ## Important if you want to study the steam dataset in your country:
 
-The Steam API gives us data about the games that are actually available from the country where you are parsing the data. Hence, parsing from a different country means that the currency, actual number of game available, etc... can be variable. 
+The Steam API gives us data about the games that are actually available from the country where you are parsing the data. Hence, parsing from a different country means that the currency, actual number of game available, etc... can be different 
